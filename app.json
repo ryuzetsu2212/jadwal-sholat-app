@@ -17,9 +17,7 @@
         "monochromeImage": "./assets/android-icon-monochrome.png"
       },
       "predictiveBackGestureEnabled": false,
-      "permissions": [
-        "SCHEDULE_EXACT_ALARM"
-      ]
+      "permissions": []
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -27,7 +25,15 @@
     "scheme": "jadwal-sholat",
     "plugins": [
       "expo-router",
-      "expo-notifications"
+      "expo-font",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#0d7a4f",
+          "image": "./assets/splash-icon.png",
+          "imageWidth": 200
+        }
+      ]
     ]
   }
 }

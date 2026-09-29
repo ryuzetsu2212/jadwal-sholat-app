@@ -4,15 +4,11 @@ export type ThemeMode = 'auto' | 'light' | 'dark';
 
 export interface Settings {
   cityId: string;
-  reminderEnabled: boolean;
-  reminderMinutes: number;
   theme: ThemeMode;
 }
 
 export const DEFAULT_SETTINGS: Settings = {
-  cityId: 'bengkalis',
-  reminderEnabled: true,
-  reminderMinutes: 10,
+  cityId: '14-1408', // Kab. Bengkalis
   theme: 'auto',
 };
 
